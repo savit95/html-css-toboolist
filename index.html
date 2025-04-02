@@ -3,35 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/app.css">
     <title>Toboolist</title>
 </head>
 <body>
-    <!-- Header -->
+    <!-- HEADER -->
     <header>
         <div class="header-container">
             <img class="header-logo" src="./img/Toboolist-logo.jpg" alt="Toboolist Logo">
         </div>
     </header>
-    <!-- Main -->
+    <!-- MAIN -->
     <main>
         <div class="main-container">
+            <!-- Button Add Task - Add Section -->
             <div class="main-buttons">
                 <button class="first-button">Add Task</button>
                 <button class="second-button">Add Section</button>
             </div>
             <div class="to-do-list">
+                <!-- New Task -->
                 <section class="task-section">
                     <h3> <span class="downward-triangle">&#9660;</span> New Task</h3>
                     <p class="to-do-list-item"><span class="entity check">&check;</span> Quarterly Newsletter  <span class="badge editorial">Editorial</span></p>
                 </section>
                 <section class="task-section">
+                    <!-- Today -->
                     <h3> <span class="downward-triangle">&#9660;</span> Today</h3>
                     <p class="to-do-list-item"><span class="entity check">&check;</span> Recruting blog post <span class=" badge editorial">Editorial</span></p>
                     <p class="to-do-list-item"><span class="entity check">&check;</span> Mobile app luaunch <span class="badge q1-goals">Q1 Goals</span></p>
-                    <p class="to-do-list-item"><span class="entity cross">&cross;</span> Interview John H.<span class="badge ">Recruiting/span></p>
+                    <p class="to-do-list-item"><span class="entity cross">&cross;</span> Interview John H. <span class="badge recruiting">Recruiting</span></p>
+                    <p class="to-do-list-item"><span class="entity check">&check;</span> Summit update to mobile storefronts  <span class="badge mobile">Mobile</span></p>
                 </section>
-
+                <!-- Upcoming -->
+                <section class="task-section">
+                    <h3> <span class="downward-triangle">&#9660;</span> Upcoming</h3>
+                    <p class="to-do-list-item"><span class="entity cross">&check;</span> Schedule meeting with Alex </p>
+                    <p class="to-do-list-item"><span class="entity check">&check;</span> Homepage refresh <span class="badge website">Website</span></p>
+                    <p class="to-do-list-item"><span class="entity cross">&cross;</span> Onboard new Sales team members <span class="badge sales">Sales</span></p>
+                    <p class="to-do-list-item"><span class="entity check">&check;</span> Review editorial calendar <span class="badge editorial">Mobile</span></p>
+                </section>
             </div>
         </div>
     </main>
