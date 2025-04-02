@@ -15,7 +15,6 @@ body{
     background-color: white;
     margin: 50px auto;
     border-radius: 5px;
-    /* padding: 20px 40px; */
 }
 
 
@@ -59,33 +58,53 @@ body{
     padding: 20px 40px;
 }
 
-
 .downward-triangle{
     font-size: 10px;
     padding:  3px;
 }
 
-.check{
-    color: green;
+.to-do-list-item{
+    margin-top: 10px;
+    }
+    
+.task-section{
+    margin-bottom: 30px;
+}
+
+/* entity style */
+.entity{
     font-size: 10px;
-    border: 0.5px solid green;
     border-radius: 50%;
     padding:  3px;
     margin-right: 5px;
+    border: 0.5px solid; 
 }
 
-.editorial{
+.check{
+    color: green;
+}
+
+.cross{
+    color: red;
+}
+
+/* badge style */
+.badge{
     font-size: 13px;
-    background-color: rgb(36, 173, 241);
     color: white;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 20px;
 }
 
-
-.to-do-list-item{
-margin-top: 15px;
+.editorial{
+    background-color: rgb(36, 173, 241);  
 }
+
+.q1-goals{
+    background-color:rgb(160, 86, 230);
+}
+
+
 
 
 
